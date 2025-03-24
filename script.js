@@ -8,9 +8,9 @@ menuToggle.addEventListener('click', () => {
 const audioPlayer = document.getElementById('audioPlayer');
 const playButton = document.getElementById('playButton');
 const recordings = [
-    'recordings/recording1.mp3',
-    'recordings/recording2.mp3',
-    'recordings/recording3.mp3',
+    'recording1.mp3',
+    'recording2.mp3',
+    'recording3.mp3',
 ];
 let currentRecordingIndex = parseInt(localStorage.getItem('recordingIndex')) || 0;
 let intervalId;
